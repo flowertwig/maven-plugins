@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.4</version>
+			<version>1.7.36</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.odavid.maven.plugins</groupId>
