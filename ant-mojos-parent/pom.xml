@@ -11,7 +11,7 @@
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>A parent for all maven plugins based on ant</description>
 	<properties>
-		<ant.version>1.9.2</ant.version>
+		<ant.version>1.10.15</ant.version>
 		<ant.contrib.version>1.0b3</ant.contrib.version>
 		<maven-script-ant.version>2.2.1</maven-script-ant.version>
 		<maven-plugin-tools.version>3.2</maven-plugin-tools.version>
