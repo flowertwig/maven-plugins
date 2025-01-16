@@ -2,5 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "fileMatch": [
+    "pom.xml",
+    "mixin-maven-plugin/pom.xml"
   ]
 }
