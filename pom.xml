@@ -1,12 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
-	</parent>
-
 	<groupId>com.github.odavid</groupId>
 	<artifactId>plugins-parent</artifactId>
 	<version>0.1-alpha-41-SNAPSHOT</version>
@@ -18,8 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.release>21</maven.compiler.release>
 		<version.org.codehaus.groovy>2.4.3</version.org.codehaus.groovy>
 		<version.groovy-eclipse-compiler>2.9.2-01</version.groovy-eclipse-compiler>
 		<version.groovy-eclipse-batch>2.4.3-01</version.groovy-eclipse-batch>
@@ -53,7 +46,7 @@
 		<tag>HEAD</tag>
 	</scm>
 	<modules>
-		<module>attach-report-maven-plugin</module>
+		<!-- <module>attach-report-maven-plugin</module>
 		<module>maven-logging-extension</module>
 		<module>mojo-descriptor-maven-plugin</module>
 		<module>maven-ant-tasks</module>
@@ -61,13 +54,13 @@
 		<module>plexus-ant-factory</module>
 		<module>antrun-maven-plugin</module>
 		<module>ant-mojos-parent</module>
-		<module>unpacked-repository-maven-plugin</module>
+		<module>unpacked-repository-maven-plugin</module> -->
 		<module>mixin-maven-plugin</module>
-		<module>groovy-based-parent</module>
+		<!-- <module>groovy-based-parent</module>
 		<module>groovy-based-mojo-parent</module>
 		<module>groovy-mojo-extractor</module>
 		<module>groovy-mojo-utils</module>
-		<module>dependency-handler-maven-plugin</module>
+		<module>dependency-handler-maven-plugin</module> -->
 	</modules>
 
 	<dependencyManagement>
@@ -111,7 +104,7 @@
 			<dependency>
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
-				<version>2.4</version>
+				<version>2.18.0</version>
 			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
@@ -174,7 +167,7 @@
 				</plugin>
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.3</version>
+					<version>3.13.0</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
@@ -252,7 +245,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-plugin-plugin</artifactId>
-					<version>3.3</version>
+					<version>3.15.1</version>
 					<configuration>
 						<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
 					</configuration>
