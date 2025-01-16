@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>21</maven.compiler.release>
-		<version.org.codehaus.groovy>2.4.3</version.org.codehaus.groovy>
+		<version.org.codehaus.groovy>3.0.23</version.org.codehaus.groovy>
 		<version.groovy-eclipse-compiler>2.9.2-01</version.groovy-eclipse-compiler>
 		<version.groovy-eclipse-batch>2.4.3-01</version.groovy-eclipse-batch>
 		<version.gmaven>1.5</version.gmaven>
