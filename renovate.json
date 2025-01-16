@@ -3,8 +3,11 @@
   "extends": [
     "config:recommended"
   ],
-  "fileMatch": [
-    "pom.xml",
-    "mixin-maven-plugin/pom.xml"
+  "enabled": false,
+  "packageRules": [
+    {
+      "matchPaths": ["pom.xml", "mixin-maven-plugin/pom.xml"],
+      "enabled": true 
+    }
   ]
 }
