@@ -27,7 +27,7 @@
 		<version.gmaven>1.5</version.gmaven>
 		<version.groovy-eclipse-batch>2.4.3-01</version.groovy-eclipse-batch>
 		<version.groovy-eclipse-compiler>2.9.2-01</version.groovy-eclipse-compiler>
-		<version.org.codehaus.groovy>3.0.23</version.org.codehaus.groovy>
+		<version.org.codehaus.groovy>3.0.25</version.org.codehaus.groovy>
 		
 		<!-- Other Dependencies -->
 		<version.commons-io>2.18.0</version.commons-io>
