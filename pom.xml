@@ -17,7 +17,7 @@
 		
 		<!-- Maven Core Dependencies -->
 		<version.maven-plugin-annotations>3.15.1</version.maven-plugin-annotations>
-		<version.maven-plugin-api>3.9.9</version.maven-plugin-api>
+		<version.maven-plugin-api>3.9.16</version.maven-plugin-api>
 		<version.maven-reporting>4.0.0</version.maven-reporting>
 		
 		<!-- Doxia Dependencies -->
