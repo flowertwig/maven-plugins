@@ -52,7 +52,7 @@
 		<version.maven-scm-plugin>2.1.0</version.maven-scm-plugin>
 		<version.maven-site-plugin>3.21.0</version.maven-site-plugin>
 		<version.maven-source-plugin>3.3.1</version.maven-source-plugin>
-		<version.maven-surefire-plugin>3.5.2</version.maven-surefire-plugin>
+		<version.maven-surefire-plugin>3.6.0</version.maven-surefire-plugin>
 		<version.nexus-staging-plugin>1.7.0</version.nexus-staging-plugin>
 		<version.versions-maven-plugin>2.18.0</version.versions-maven-plugin>
 		<version.wagon-ssh>3.5.3</version.wagon-ssh>
